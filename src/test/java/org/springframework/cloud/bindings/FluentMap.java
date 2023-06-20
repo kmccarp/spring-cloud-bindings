@@ -20,6 +20,8 @@ import java.util.HashMap;
 
 public final class FluentMap extends HashMap<String, String> {
 
+    private static final long serialVersionUID = 1;
+
     public FluentMap withEntry(String key, String value) {
         put(key, value);
         return this;
